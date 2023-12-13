@@ -1,0 +1,31 @@
+
+#animated-gradient {
+    animation: animateBg 7s linear infinite;
+    background-image: linear-gradient(90deg,#71c66c,#e89645,#db5779,#71c66c,#e89645);
+    background-size: 400% 100%;
+    height:max-content;    
+  }
+  
+  @keyframes animateBg {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 100% 0%; }
+  }
+
+  h1,p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+  .share{
+    margin-top: 100px;
+    margin-left: 200px;
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #5aff15, #00b712);
+    border-radius: 6px;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 6px;
+  }
+  
+
+  

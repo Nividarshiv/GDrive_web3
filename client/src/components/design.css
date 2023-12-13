@@ -1,0 +1,123 @@
+#fileupload{
+    height: 250px;
+}
+#share{
+    height: 250px;
+}
+
+#backcolor{
+    background-color:rgba(240,248,255,0.7);
+    border-radius: 25px;
+}
+
+  .top {
+    margin: 40px;
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
+  
+  .choose {
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #5aff15, #00b712);
+    border-radius: 6px;
+    color: #ffffff;
+    padding: 5px 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    
+  }
+  .choose:hover {
+    box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+  }
+  .textArea {
+    color: rgb(204, 91, 91);
+  }
+  
+  .upload {
+    
+    border: 1px solid #13aa52;
+    background-color: #13aa52;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 6px;
+    margin-left: 150px;
+    margin-top: 10px;
+  }
+  
+  .upload:hover {
+    border: 1px solid #13aa52;
+    background-color: #a5efc1;
+    color: #ffffff;
+    padding: 5px 10px;
+  }
+  
+  .upload:disabled,
+  .upload[disabled] {
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+  }
+  
+  div {
+    padding: 5px 10px;
+  }
+
+  #headingupload{
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  #btnstyle{
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #5aff15, #00b712);
+    border-radius: 6px;
+    color: #ffffff;
+    padding: 5px 10px;
+  }
+
+  #modeheading{
+    text-align: center;
+    margin-top: 10px;
+  }
+  #add{
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  #myForm{
+    text-align: center;
+    margin-bottom: -10px;
+  }
+
+  #displayimg{
+    text-align: center;
+    margin-top: 35px;
+  }
+
+  input[type="text"]{
+    border-radius: 50px;
+    border-color: #5aff15;
+    height: 35px;
+    width:300px;
+  } 
+  
+.image-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 10px;
+    grid-auto-rows: 350px;
+  
+   margin-top: 30px;
+   margin-bottom: -30px;
+  }
+  
+  .image-list img {
+    width: 250px;
+    height: 250px;
+  }
+  
